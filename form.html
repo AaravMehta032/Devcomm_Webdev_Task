@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/quiz.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+
+    <title>Quiz</title>
+  </head>
+
+  <body>
+    <form>
+      <div class="form">
+        <div id="top_image">
+          <img src="images/top_image.jpg" alt="Basic_maths_image" />
+        </div>
+
+        <div class="heading1">
+          <h1>Basic Maths Quiz</h1>
+        </div>
+
+        <div class="description">
+          <p>
+            This is a basic maths quiz. One or more answers can be correct.
+            There is no negative marking. Click on submit to see result.
+          </p>
+        </div>
+        <br /><br />
+
+        <div class="name">
+          <h3>
+            Name<sup><i class="fa-solid fa-asterisk"></i></sup>
+          </h3>
+          <input
+            type="text"
+            class="inputdetails"
+            placeholder="Enter your name here..."
+            required
+          />
+        </div>
+
+        <br />
+
+        <div class="email">
+          <h3>
+            Email<sup><i class="fa-solid fa-asterisk"></i></sup>
+          </h3>
+          <input
+            type="email"
+            class="inputdetails"
+            placeholder="Enter your email here..."
+            required
+          />
+        </div>
+
+        <br /><br />
+
+        <div class="intro">
+          <h3>
+            The quiz comprises of 5 questions each of 3 points. In questions
+            with multiple correct answers, you will be awarded one point for
+            each correct answer. Best of luck!
+          </h3>
+        </div>
+      </div>
+
+      <div class="form2">
+        <div class="q1">
+          <h3>What is 1+1=?</h3>
+
+          <label>
+            <input type="radio" value="2" class="options" name="q1" /> 2
+          </label>
+
+          <label>
+            <input type="radio" value="3" class="options" name="q1" /> 3
+          </label>
+
+          <label>
+            <input type="radio" value="0" class="options" name="q1" /> 0
+          </label>
+
+          <label>
+            <input type="radio" value="11" class="options" name="q1" /> 11
+          </label>
+        </div>
+      </div>
+
+      <div class="form2">
+        <div class="q2">
+          <h3>What is 3-1=?</h3>
+
+          <label>
+            <input type="radio" value="0" class="options" name="q2" /> 0
+          </label>
+
+          <label>
+            <input type="radio" value="2" class="options" name="q2" /> 2
+          </label>
+
+          <label>
+            <input type="radio" value="3" class="options" name="q2" /> 3
+          </label>
+
+          <label>
+            <input type="radio" value="1" class="options" name="q2" /> 1
+          </label>
+        </div>
+      </div>
+
+      <div class="form2">
+        <div class="q3">
+          <h3>What evaluates to 2?</h3>
+
+          <label>
+            <input type="checkbox" value="2" class="options" name="q3" /> 2-0
+          </label>
+
+          <label>
+            <input type="checkbox" value="0" class="options" name="q3" /> 2X0
+          </label>
+
+          <label>
+            <input type="checkbox" value="2" class="options" name="q3" /> 3-1
+          </label>
+
+          <label>
+            <input type="checkbox" value="2" class="options" name="q3" /> 1+1
+          </label>
+        </div>
+      </div>
+
+      <div class="form2">
+        <div class="q4">
+          <h3>What is 10 ÷ 2 =?</h3>
+
+          <label>
+            <input type="radio" value="6" class="options" name="q4" /> 6
+          </label>
+
+          <label>
+            <input type="radio" value="5" class="options" name="q4" /> 5
+          </label>
+
+          <label>
+            <input type="radio" value="2" class="options" name="q4" /> 2
+          </label>
+
+          <label>
+            <input type="radio" value="1" class="options" name="q4" /> 1
+          </label>
+        </div>
+      </div>
+
+      <div class="form2">
+        <div class="q5">
+          <h3>What is 20 - 15=?</h3>
+
+          <label>
+            <input type="radio" value="1" class="options" name="q5" /> 1
+          </label>
+
+          <label>
+            <input type="radio" value="10" class="options" name="q5" /> 10
+          </label>
+
+          <label>
+            <input type="radio" value="5" class="options" name="q5" /> 5
+          </label>
+
+          <label>
+            <input type="radio" value="8" class="options" name="q5" /> 8
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="submit">Submit</button>
+
+      <button type="button" id="rreset">Reset</button>
+    </form>
+
+    <script src="js/form.js"></script>
+  </body>
+</html>

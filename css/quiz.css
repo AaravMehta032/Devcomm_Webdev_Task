@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Calibri", "Candara", "Segoe UI", "Optima", Arial, sans-serif;
+}
+
+body {
+    background-color: #F7EFE8;
+
+    padding: 30px 0;
+}
+
+.inputdetails {
+    width: 100%;
+    /* Take full size of container instead of just some portions */
+    max-width: 200px;
+    /* Even if container becomes bigger, This is the max*/
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-bottom: 2px dotted grey;
+}
+
+.inputdetails:focus {
+    border-bottom: 2px dotted grey;
+    outline: none;
+    /* This removes the border when clicked */
+}
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+
+    padding-bottom: 20px;
+}
+
+.form2 {
+    width: 68%;
+
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+    background-color: white;
+
+    padding: 1rem;
+
+    margin: 15px auto;
+}
+
+#top_image img {
+    max-width: 80%;
+    height: auto;
+    /*to prevent problems in future proportions*/
+    border: 3px solid transparent;
+}
+
+#top_image img:hover {
+    border: 3px solid #D3D3D3;
+}
+
+.heading1 {
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.description {
+    align-self: flex-start;
+    margin-left: 1rem;
+}
+
+form {
+    width: 100%
+}
+
+.intro {
+    align-self: flex-start;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}
+
+.name {
+    align-self: flex-start;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name i,
+.email i {
+    font-size: 0.5rem;
+    color: red;
+}
+
+.email {
+    align-self: flex-start;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.question,
+.q1,
+.q2,
+.q3,
+.q4,
+.q5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+    /* align-items: flex-start; --> THIS PUTS ALL THE CHILDREN OF THE FLEX BOX ON THE LEFT SIDE AND THAT +  flex-direction: column; MADE 
+    ALL THE INPUTS COME IN A LINE ONE AFTER THE OTHER ON THE SCREEN'S LHS*/
+}
+
+.question h2 {
+    margin-bottom: 10px;
+}
+
+.question label {
+    margin-bottom: 5px;
+}
+
+.correct {
+    color: #22C55E;
+}
+
+.wrong {
+    color: #FF0000;
+}
+
+button{
+    color: #F5F5F5;
+    background-color: #654321; 
+    font-size: 1rem;
+    width: 125px;
+    height: 50px;
+    outline: none;
+    border: 1px solid transparent;
+    
+}
